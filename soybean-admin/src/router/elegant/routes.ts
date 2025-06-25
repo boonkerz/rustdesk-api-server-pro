@@ -78,7 +78,9 @@ export const generatedRoutes: GeneratedRoute[] = [
     component: 'layout.base',
     meta: {
       title: 'device',
-      i18nKey: 'route.device'
+      icon: 'fluent:desktop-32-regular',
+      i18nKey: 'route.device',
+      order: 2
     },
     children: [
       {
@@ -87,7 +89,9 @@ export const generatedRoutes: GeneratedRoute[] = [
         component: 'view.device_list',
         meta: {
           title: 'device_list',
-          i18nKey: 'route.device_list'
+          i18nKey: 'route.device_list',
+          requiresAuth: true,
+          icon: 'fluent:desktop-32-regular'
         }
       }
     ]
@@ -168,30 +172,6 @@ export const generatedRoutes: GeneratedRoute[] = [
             }
           }
         ]
-      }
-    ]
-  },
-  {
-    name: 'device',
-    path: '/device',
-    component: 'layout.base',
-    meta: {
-      title: 'device',
-      icon: 'fluent:desktop-32-regular',
-      i18nKey: 'route.device',
-      order: 2
-    },
-    children: [
-      {
-        name: 'device_list',
-        path: '/device/list',
-        component: 'view.device_list',
-        meta: {
-          title: 'device_list',
-          i18nKey: 'route.device_list',
-          requiresAuth: true,
-          icon: 'fluent:desktop-32-regular'
-        }
       }
     ]
   },

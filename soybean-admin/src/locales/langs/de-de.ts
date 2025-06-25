@@ -18,7 +18,7 @@ const local: App.I18n.Schema = {
     expandColumn: 'Expand Column',
     columnSetting: 'Column Setting',
     config: 'Config',
-    confirm: 'Confirm',
+    confirm: 'Bestätigen',
     delete: 'Delete',
     deleteSuccess: 'Delete Success',
     confirmDelete: 'Are you sure you want to delete?',
@@ -151,39 +151,39 @@ const local: App.I18n.Schema = {
   },
   route: {
     login: 'Login',
-    403: 'No Permission',
-    404: 'Page Not Found',
+    403: 'Keine Rechte',
+    404: 'Seite nicht gefunden',
     500: 'Server Error',
     'iframe-page': 'Iframe',
     home: 'Home',
     audit: 'Audit',
-    user: 'User Management',
-    user_list: 'User List',
+    user: 'Benutzerverwaltung',
+    user_list: 'Benutzerliste',
     user_sessions: 'Sessions',
-    device: 'Geräte Verwaltung',
+    device: 'Geräteverwaltung',
     device_list: 'Geräte',
-    system: 'System Verwaltung',
+    system: 'Systemverwaltung',
     system_mail_template: 'Mail Vorlagen',
     system_mail_logs: 'Mail Logs',
-    system_mail: 'Mail Verwaltung',
+    system_mail: 'Mailverwaltung',
     audit_baselogs: 'Base Logs',
     audit_filetransferlogs: 'File Transfer Logs'
   },
   page: {
     login: {
       common: {
-        loginOrRegister: 'Login / Register',
-        userNamePlaceholder: 'Please enter user name',
-        phonePlaceholder: 'Please enter phone number',
-        codePlaceholder: 'Please enter verification code',
-        passwordPlaceholder: 'Please enter password',
-        confirmPasswordPlaceholder: 'Please enter password again',
+        loginOrRegister: 'Login / Registrieren',
+        userNamePlaceholder: 'Benutzername',
+        phonePlaceholder: 'Telefonnummer',
+        codePlaceholder: 'Captcha',
+        passwordPlaceholder: 'Passwort',
+        confirmPasswordPlaceholder: 'Passwort erneut eingeben',
         codeLogin: 'Verification code login',
-        confirm: 'Confirm',
-        back: 'Back',
+        confirm: 'Anmelden',
+        back: 'Zurück',
         validateSuccess: 'Verification passed',
-        loginSuccess: 'Login successfully',
-        welcomeBack: 'Welcome back, {userName} !'
+        loginSuccess: 'Anmeldung erfolgreich',
+        welcomeBack: 'Willkommen zurück, {userName} !'
       },
       pwdLogin: {
         title: 'Password Login',
@@ -210,9 +210,9 @@ const local: App.I18n.Schema = {
     },
     user: {
       list: {
-        addUser: 'Add User',
-        editUser: 'Edit User',
-        inputUsername: 'Input Username',
+        addUser: 'Benutzer hinzufügen',
+        editUser: 'Benutzer bearbeiten',
+        inputUsername: 'Input Benutzername',
         inputPassword: 'Input Password',
         inputNickname: 'Input Nickname',
         emailFormatError: 'Email format error',
@@ -252,9 +252,9 @@ const local: App.I18n.Schema = {
     closeAll: 'Close All'
   },
   icon: {
-    themeConfig: 'Theme Configuration',
+    themeConfig: 'Theme Konfiguration',
     themeSchema: 'Theme Schema',
-    lang: 'Switch Language',
+    lang: 'Sprache ändern',
     fullscreen: 'Fullscreen',
     fullscreenExit: 'Exit Fullscreen',
     reload: 'Reload Page',
@@ -272,19 +272,19 @@ const local: App.I18n.Schema = {
       rustdesk_id: 'Rustdesk ID'
     },
     user: {
-      username: 'Username',
-      password: 'Password',
+      username: 'Benutzername',
+      password: 'Passwort',
       name: 'Nickname',
       email: 'Email',
       licensed_devices: 'Licensed Devices',
       login_verify: 'Login Verify',
       status: 'Status',
-      is_admin: 'Is Admin',
+      is_admin: 'Ist Admin',
       tfa_secret: '2FA Secret',
       tfa_code: '2FA Code',
-      created_at: 'Created At',
+      created_at: 'erzeugt am',
       statusLabel: {
-        disabled: 'Disabled',
+        disabled: 'Deaktiviert',
         unverified: 'Unverified',
         normal: 'Normal'
       },
@@ -295,19 +295,19 @@ const local: App.I18n.Schema = {
       }
     },
     session: {
-      expired: 'Expired At',
-      created_at: 'Created At'
+      expired: 'abgelaufen am',
+      created_at: 'erzeugt am'
     },
     audit: {
-      username: 'Username',
-      type: 'Type',
+      username: 'Benutzername',
+      type: 'Typ',
       conn_id: 'Connect Id',
       rustdesk_id: 'Rustdesk ID',
       ip: 'IP',
       session_id: 'Session Id',
       uuid: 'UUID',
-      created_at: 'Created At',
-      closed_at: 'Closed At',
+      created_at: 'erzeugt am',
+      closed_at: 'geschlossen am',
       typeLabel: {
         remote_control: 'Remote Control',
         file_transfer: 'File Transfer',
