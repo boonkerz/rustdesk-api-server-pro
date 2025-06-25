@@ -62,7 +62,12 @@ export const useAppStore = defineStore(SetupStoreId.App, () => {
     {
       label: 'Russia',
       key: 'ru-RU'
+    },
+    {
+      label: 'German',
+      key: 'de-DE'
     }
+
   ];
 
   function changeLocale(lang: App.I18n.LangType) {
